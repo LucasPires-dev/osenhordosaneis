@@ -1,0 +1,143 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+.container, section {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(255, 166, 0);
+    padding: 16px 0;
+    
+}
+header {
+    color: #182c61;
+    font-family: "Pattaya", sans-serif;
+    font-size: 24px;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container nav li {
+    display: inline;
+    margin-left: 8px;
+}
+
+header .container nav li a
+ {
+    color: #182c61;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+header .container nav li a:hover {
+    font-size: 20px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+#hero .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+section h2, section h3 {
+    margin-bottom: 16px;
+    color: #182c61;
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+#about p {
+    margin-bottom: 8px;
+}
+
+.imagem-capa {
+    width: 720px;
+    margin-right: 24px;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: orange;
+    border: none;
+    color: #182c61;
+    font-weight: bolder;
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 15px;
+}
+
+form button:hover {
+   background-color: rgb(213, 162, 66);
+   cursor: pointer;
+}
+
+input:focus {
+    outline-color: orange;
+}
+
+.notifications {
+    width: 400px;
+    padding: 16px;
+}
+
+.notifications p {
+    margin-bottom: 16px;
+}
+
+#seasons .container {
+    display: flex;
+}
+
+.season {
+    width: 50%;
+}
+
+.season div {
+    display: flex;
+    padding: 16px;
+
+}
+
+.season img {
+    height: 120px;
+    margin-right: 16px;
+}
+
+footer {
+    background-color: orange;
+    color: #182c61;
+    padding: 16px 0;
+}
